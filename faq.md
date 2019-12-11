@@ -1,6 +1,10 @@
-# FAQ
-## Should I buy bitcoin?
+---
+permalink: /faq/
+---
+
+## FAQ
+### Should I buy bitcoin?
 Yes.
 
-## lol?
+### lol?
 rofl!
