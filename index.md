@@ -1,2 +1,6 @@
+---
+title: CandleHater
+---
+
 # Welcome
-rofl
+I hate candles!
