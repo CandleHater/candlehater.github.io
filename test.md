@@ -1,1 +1,5 @@
+---
+permalink: /test
+---
+
 # ROFL!
