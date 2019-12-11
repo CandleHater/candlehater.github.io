@@ -1,5 +1,5 @@
 ---
-permalink: /test
+permalink: /test/
 ---
 
 # ROFL!
