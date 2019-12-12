@@ -6,8 +6,15 @@ $conifer: $bitcoin; // doesn't work
 
 @import "{{ site.theme }}";
 
-#a-title {
-  text-decoration: none;
+
+header {
+  #a-title {
+    text-decoration: none;
+  }
+  
+  h2 {
+    color: #8a8a8a;
+  }
 }
 
 a {
