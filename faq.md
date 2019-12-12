@@ -6,9 +6,7 @@ permalink: /faq/
 - [Should I buy bitcoin?](#should-i-buy-bitcoin)
 - [lol?](#lol)
 
-<br>
----
-<br>
+<p><hr></p>
 
 ### Should I buy bitcoin?
 Yes.
