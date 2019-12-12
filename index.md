@@ -4,6 +4,7 @@ title: CandleHater
 
 ## Welcome
 I hate candles!
+<br>
 
 ## Contact
 ### Twitter
@@ -11,3 +12,6 @@ I hate candles!
 
 ### Telegram
 [@BerlinBitcoin](https://t.me/BerlinBitcoin){:target="_blank"}
+
+### Mail
+[candle@bitcoin-node.org](mailto:candle@bitcoin-node.org&subject=Candle Support)
