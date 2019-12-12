@@ -6,19 +6,7 @@ $conifer: $bitcoin; // doesn't work
 
 @import "{{ site.theme }}";
 
-
-header {
-  border-color: $bitcoin;
-  
-  #a-title {
-    text-decoration: none;
-  }
-  
-  h2 {
-    color: #8a8a8a;
-  }
-}
-
+// basics
 a {
   color: #fff;
 
@@ -38,4 +26,17 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
   border-color: $bitcoin;
+}
+
+// header 
+header {
+  border-color: $bitcoin;
+  
+  #a-title {
+    text-decoration: none;
+  }
+  
+  h2 {
+    color: #8a8a8a !important;
+  }
 }
