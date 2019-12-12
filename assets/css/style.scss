@@ -1,6 +1,9 @@
 ---
 ---
 
+$bitcoin: #f7931a;
+$conifer: $bitcoin; // doesn't work
+
 @import "{{ site.theme }}";
 
 #a-title {
@@ -13,4 +16,17 @@ a {
   &:hover {
     text-decoration-color: $conifer;
   }
+}
+
+ul li {
+  list-style-image: none;
+}
+
+// color override
+h1, h2, h3, h4, h5, h6 {
+  color: $bitcoin;
+}
+
+hr {
+  border-color: $bitcoin;
 }
