@@ -8,6 +8,8 @@ $conifer: $bitcoin; // doesn't work
 
 
 header {
+  border-color: $bitcoin;
+  
   #a-title {
     text-decoration: none;
   }
@@ -31,7 +33,7 @@ ul li {
 
 // color override
 h1, h2, h3, h4, h5, h6 {
-  color: $bitcoin;
+  color: $bitcoin !important;
 }
 
 hr {
