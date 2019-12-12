@@ -1,10 +1,14 @@
 ---
 ---
 
-$conifer: #F7931A;
+$conifer: #FF9900;
 
 @import "{{ site.theme }}";
 
 #a-title {
   text-decoration: none;
+}
+
+a {
+  color: #fff;
 }
