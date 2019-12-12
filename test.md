@@ -1,4 +1,8 @@
-## Twitter
+## Tweet
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true" data-theme="dark"></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Tweets
 <a class="twitter-timeline" data-width="500" data-dnt="true" data-theme="dark" href="https://twitter.com/CandleHater?ref_src=twsrc%5Etfw">
   Tweets by CandleHater
 </a>
