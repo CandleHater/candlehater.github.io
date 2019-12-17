@@ -8,16 +8,20 @@ I hate candles!
 <br>
 
 ## Contact
-### Twitter
-[@CandleHater](https://twitter.com/CandleHater){:target="_blank"}
+<div class="box-horizontal">
+    <strong>Twitter</strong>
+    <a href="https://twitter.com/CandleHater" target="_blank">@CandleHater</a><br>
+</div>
+<div class="box-horizontal">
+    <strong>Telegram</strong><br>
+    <a href="https://t.me/BerlinBitcoin" target="_blank">@BerlinBitcoin</a>
+</div>
+<div class="box-horizontal">
+    <strong>Mail</strong><br>
+    <a href="mailto:candle@bitcoin-node.org&amp;subject=Candle Support">candle@bitcoin-node.org</a>
+</div>
 
-### Telegram
-[@BerlinBitcoin](https://t.me/BerlinBitcoin){:target="_blank"}
-
-### Mail
-[candle@bitcoin-node.org](mailto:candle@bitcoin-node.org&subject=Candle Support)
-
-<pre style="color: #e1e1e1;background: none;border: none;">
+<pre style="color: #e1e1e1;background: none;border: none;margin-top: 3em;">
                       )                    `
                      /(                    /)
                     (  \                  / (
