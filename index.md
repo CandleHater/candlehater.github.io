@@ -9,7 +9,7 @@ I hate candles!
 
 ## Contact
 <div class="box-horizontal">
-    <strong>Twitter</strong>
+    <strong>Twitter</strong><br>
     <a href="https://twitter.com/CandleHater" target="_blank">@CandleHater</a><br>
 </div>
 <div class="box-horizontal">
