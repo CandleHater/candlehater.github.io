@@ -53,10 +53,11 @@ header {
   justify-content: start;
   align-items: auto;
   align-content: start;
+  margin: -1em;
   
   > div {
     flex: 0 0 auto;
-    margin: 12px;
+    margin: 1em;
   }
 }
 
