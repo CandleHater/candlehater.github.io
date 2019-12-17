@@ -19,6 +19,10 @@ ul li {
   list-style-image: none;
 }
 
+.clear {
+  clear: both;
+}
+
 // color override
 h1, h2, h3, h4, h5, h6 {
   color: $bitcoin !important;
@@ -40,3 +44,19 @@ header {
     color: #8a8a8a !important;
   }
 }
+
+// contacts
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: auto;
+  align-content: start;
+  
+  > div {
+    flex: 0 0 auto;
+    margin: 12px;
+  }
+}
+
