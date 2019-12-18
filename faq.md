@@ -2,7 +2,7 @@
 permalink: /faq/
 ---
 
-## FAQ
+## ⁉️ FAQ
 - [Should I buy bitcoin?](#should-i-buy-bitcoin)
 - [lol?](#lol)
 
