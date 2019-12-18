@@ -3,7 +3,7 @@ title: CandleHater
 ---
 
 ## 🕯️ Hi!
-I hate candles, so there is that.
+I hate candles, so there's that.
 <br>
 <br>
 
