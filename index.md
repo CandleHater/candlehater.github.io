@@ -2,12 +2,12 @@
 title: CandleHater
 ---
 
-## Welcome
-I hate candles!
+## 🕯️ Hi!
+I hate candles, so there is that.
 <br>
 <br>
 
-## Contact
+### Contact
 <div class="contact-box">
     <div>
         <strong>Twitter</strong><br>
@@ -23,6 +23,7 @@ I hate candles!
     </div>
 </div>
 
+### Family Picture
 <pre class="ascii-candle">
                     )                    `
                    /(                    /)
