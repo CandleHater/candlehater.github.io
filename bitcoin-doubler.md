@@ -1,5 +1,5 @@
 ---
-permalink: /bitcoin-double/
+permalink: /bitcoin-doubler/
 ---
 
 ## Bitcoin Doubler
