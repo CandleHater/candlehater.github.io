@@ -8,56 +8,71 @@ $conifer: $bitcoin; // doesn't work
 
 // basics
 a {
-  color: #fff;
+    color: #fff;
 
-  &:hover {
-    text-decoration-color: $bitcoin;
-  }
+    &:hover {
+        text-decoration-color: $bitcoin;
+    }
 }
 
 ul li {
-  list-style-image: none;
+    list-style-image: none;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
 // color override
 h1, h2, h3, h4, h5, h6 {
-  color: $bitcoin !important;
+    color: $bitcoin !important;
 }
 
 hr {
-  border-color: $bitcoin;
+    border-color: $bitcoin;
 }
 
-// header 
+// header
 header {
-  border-color: $bitcoin;
-  
-  #a-title {
-    text-decoration: none;
-  }
-  
-  h2 {
-    color: #8a8a8a !important;
-  }
+    border-color: $bitcoin;
+
+    h2 {
+        color: #8a8a8a !important;
+    }
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover {
+            color: $bitcoin;
+        }
+    }
+
+    #a-title {
+        text-decoration: none;
+    }
+
+    @media (max-width: 1000px) {
+        h1 {
+            margin: 0;
+        }
+    }
 }
 
 // contacts
 .contact-box {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: start;
-  align-items: auto;
-  align-content: start;
-  margin: -1em;
-  
-  > div {
-    flex: 0 0 auto;
-    margin: 1em;
-  }
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: auto;
+    align-content: start;
+    margin: -1em;
+
+    > div {
+        flex: 0 0 auto;
+        margin: 1em;
+    }
 }
 
