@@ -60,7 +60,7 @@ header {
     }
 }
 
-// contacts
+// elements
 .contact-box {
     display: flex;
     flex-wrap: wrap;
@@ -76,3 +76,13 @@ header {
     }
 }
 
+.ascii-candle {
+    color: #e1e1e1;
+    background: none;
+    border: none;
+    margin-top: 3em;
+
+    @media (max-width: 700px) {
+        font-size: 0.5em;
+    }
+}
