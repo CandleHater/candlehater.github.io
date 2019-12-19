@@ -90,7 +90,9 @@ function getFlameMaterial(isFrontSide){
 - make taller
 - add B
 - redraw on resize
-- make flame a little transparent
+- make flame better
+    - https://www.shadertoy.com/view/XsXSWS
+    - https://www.shadertoy.com/results?query=candle
 - add floating wax
 - make wick move a little
 
