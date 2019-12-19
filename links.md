@@ -1,4 +1,5 @@
 ---
+title: Links
 permalink: /links/
 ---
 
