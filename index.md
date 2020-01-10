@@ -2,7 +2,7 @@
 title: CandleHater
 ---
 
-## 🕯️ Hi!
+## Hi!
 I hate candles, so there's that.
 <br>
 <br>
