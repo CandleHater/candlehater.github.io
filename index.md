@@ -18,6 +18,10 @@ I hate candles, so there's that.
         <a href="https://t.me/BerlinBitcoin" target="_blank">@BerlinBitcoin</a>
     </div>
     <div>
+        <strong>GitHub</strong><br>
+        <a href="https://github.com/CandleHater" target="_blank">CandleHater</a>
+    </div>
+    <div>
         <strong>Mail</strong><br>
         <a href="mailto:candle@bitcoin-node.org&amp;subject=Candle Support">candle@bitcoin-node.org</a>
     </div>
