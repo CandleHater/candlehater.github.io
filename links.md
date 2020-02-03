@@ -5,6 +5,6 @@ permalink: /links/
 
 ## 🔗 Links
 ### Price
-- [fiatmarketcap.com](https://fiatmarketcap.com/) - Bitcoin vs. fiat currencies market capitalization
-- [usdsat.com](https://usdsat.com/) - How many sats do I get for 1 $?
-- [xausat.com](https://xausat.com/) - How many sats do I get for 1 Oz Gold?
+- <a href="https://fiatmarketcap.com/" target="_blank">fiatmarketcap.com</a> - Bitcoin vs. fiat currencies market capitalization
+- <a href="https://usdsat.com/" target="_blank">usdsat.com</a> - How many sats is 1 $ worth?
+- <a href="https://xausat.com/" target="_blank">xausat.com</a> - How many sats is 1 Oz Gold worth?
