@@ -5,10 +5,21 @@ body {
 a {
   color: #464646;
 }
-a:hover {
+a:hover,
+a:active {
   color: black;
 }
 
+.header::after {
+    margin: 5px;
+    content: "Thank you! -🕯️";
+    font-size: 1.6em;
+    position: absolute;
+    right: 10px;
+}
+.header__icon {
+  margin: 0;
+}
 .top-header {
     color: #fff;
     background-color: #444444;
@@ -25,7 +36,7 @@ a:hover {
   background-color: rgba(247, 147, 26, .85);
   border-color: #c76d00;
 }
-.action-button:hover {
+.action-button:hover, .action-button:active {
   background-color: rgba(247, 147, 26, .95);
 }
 
@@ -37,7 +48,9 @@ a:hover {
 }
 
 .payment-box {
-    background: url(https://media3.giphy.com/media/Pw7f9kOfx8iOI/giphy.gif?cid=ecf05e4…&rid=giphy.gif);
+    background: url("https://media3.giphy.com/media/Pw7f9kOfx8iOI/giphy.gif?cid=ecf05e4…&rid=giphy.gif");
+    background-position: center;
+    background-size: cover;
 }
 .payment__scan svg {
     border: 5px solid rgba(255, 255, 255, 0.80);
@@ -54,13 +67,15 @@ a:hover {
   color: rgba(255, 255, 255, .8);
   background-color: rgba(247, 147, 26, .65);
 }
-.btnGroupLnd button:hover {
+.btnGroupLnd button:hover,
+.btnGroupLnd button:active {
   background-color: rgba(247, 147, 26, .80);
 }
 .btnGroupLnd button.active {
   background-color: rgba(247, 147, 26, .95);
 }
-.btnGroupLnd button.active:hover {
+.btnGroupLnd button.active:hover,
+.btnGroupLnd button.active:active {
   background-color: rgba(247, 147, 26, .95);
 }
 
@@ -97,8 +112,15 @@ a:hover {
 
 .modal-content {
     box-shadow: 0 2px 32px 0 black;
+    border: 1px solid #f5f5f7;
 }
 
 #prettydropdown-DefaultLang {
   margin-top: 15px;
+}
+
+.expired__body {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
 }
