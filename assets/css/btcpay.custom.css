@@ -21,15 +21,14 @@
     --btcpay-color-neutral-900: #20180d;
 }
 
+.card-deck .card:hover {
+    box-shadow: 0 0 200px #484848;
+}
+
+/* img same height */
 @media (min-width: 768px) {
     img.card-img-top {
         object-fit: cover;
         height: 180px;
-    }
-}
-
-@media (min-width: 768px) {
-    img.card-img-top {
-        height: 200px;
     }
 }
