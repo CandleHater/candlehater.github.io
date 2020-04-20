@@ -43,7 +43,7 @@ img.card-img-top {
     filter: grayscale(60%);
 }
 .card-deck .card:hover img.card-img-top {
-    transform: scale(1.1);
+    transform: scale(1.08);
     filter: none;
 }
 
