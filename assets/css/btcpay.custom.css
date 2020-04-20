@@ -21,3 +21,19 @@
     --btcpay-color-neutral-900: #20180d;
 }
 
+img.card-img-top {
+    object-fit: cover;
+    height: 260px;
+}
+
+@media (min-width: 768px) {
+    img.card-img-top {
+        height: 180px;
+    }
+}
+
+@media (min-width: 768px) {
+    img.card-img-top {
+        height: 200px;
+    }
+}
