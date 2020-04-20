@@ -39,10 +39,12 @@ h1, h2, h3, h4, h5 {
 
 /* card - img */
 img.card-img-top {
-    transition: 1s ease-in-out;
+    transition: 333ms ease-in-out;
+    filter: grayscale(60%);
 }
-img.card-img-top:hover {
+.card-deck .card:hover img.card-img-top {
     transform: scale(1.1);
+    filter: none;
 }
 
 /* card - img same height */
