@@ -135,7 +135,7 @@ label {
 
 .modal-content {
     box-shadow: 0 2px 32px 0 black;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 .modal-content:after {
     content: '';
