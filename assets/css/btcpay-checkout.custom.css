@@ -7,12 +7,13 @@ a {
 }
 a:hover,
 a:active {
-    color: black;
+    color: #2f2f2f;
 }
 
 .header::after {
     margin: 5px;
     content: "Thank you! -🕯️";
+    text-shadow: 1px 1px black;
     font-size: 1.6em;
     position: absolute;
     right: 10px;
@@ -41,7 +42,7 @@ a:active {
 }
 
 .payment-tabs__tab {
-    color: black !important;
+    color: #e67e00 !important;
 }
 .payment-tabs__slider {
     background-color: #FF9800;
@@ -51,6 +52,9 @@ a:active {
     background: url("https://media3.giphy.com/media/Pw7f9kOfx8iOI/giphy.gif?cid=ecf05e4…&rid=giphy.gif");
     background-position: center;
     background-size: cover;
+}
+.expired .payment-box {
+    filter: invert(1);
 }
 .payment__scan svg {
     border: 5px solid rgba(255, 255, 255, .85);
@@ -93,18 +97,22 @@ a:active {
     margin-bottom: 15px;
     border-radius: 5px;
     opacity: 1;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, .8);
     color: #101010;
 }
 
 .copyBox {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, .8);
     color: #101010;
 }
 
 .order-details > * {
-    color: #444444;
-    background: rgba(255, 255, 255, 0.4);
+    color: #2f2f2f;
+    background: rgba(255, 255, 255, .35);
+    border-color: #FF9800;
+}
+.order-details .line-items {
+    color: #2f2f2f;
 }
 
 .separatorGem {
@@ -163,8 +171,8 @@ a:active {
 }
 
 .expired__body {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, .8);
     border-radius: 5px;
     margin-bottom: 20px;
-    padding: 15px 0;
+    padding: 15px;
 }
