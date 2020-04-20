@@ -21,6 +21,10 @@
     --btcpay-color-neutral-900: #20180d;
 }
 
+h1, h2, h3, h4, h5 {
+    text-shadow: 1px 1px var(--btcpay-brand-darkest);
+}
+
 .card-deck .card:hover:before {
     content: "";
     z-index: -10;
