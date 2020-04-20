@@ -21,10 +21,12 @@
     --btcpay-color-neutral-900: #20180d;
 }
 
+/* emboss shadow on headlines */
 h1, h2, h3, h4, h5 {
     text-shadow: 1px 1px var(--btcpay-brand-darkest);
 }
 
+/* box shadow on hover */
 .card-deck .card:hover:before {
     content: "";
     z-index: -10;
@@ -40,4 +42,9 @@ h1, h2, h3, h4, h5 {
         object-fit: cover;
         height: 180px;
     }
+}
+
+/* fixes/improvements */
+.form-control {
+    background-clip: unset;
 }
