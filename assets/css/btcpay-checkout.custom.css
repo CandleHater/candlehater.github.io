@@ -36,17 +36,32 @@ a:hover {
   background-color: #FF9800;
 }
 
+.payment-box {
+    background: url(https://media3.giphy.com/media/Pw7f9kOfx8iOI/giphy.gif?cid=ecf05e4…&rid=giphy.gif);
+}
+.payment__scan svg {
+    border: 5px solid rgba(255, 255, 255, 0.80);
+}
+.payment__scan svg path {
+    fill: rgba(255, 255, 255, 0.80);
+}
+
+.btnGroupLnd {
+    background: none;
+}
 .btnGroupLnd button {
   border-color: #c76d00 !important;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(247, 147, 26, 0.70);
 }
 .btnGroupLnd button:hover {
-  background-color: #efefef;
+  background-color: rgba(247, 147, 26, 1);
 }
 .btnGroupLnd button.active {
-  background-color: #f7931a;
+  background-color: rgba(247, 147, 26, 0.85);
 }
 .btnGroupLnd button.active:hover {
-  background-color: #c76d00;
+  background-color: rgba(247, 147, 26, 0.85);
 }
 
 .text-muted, .text-muted a {
