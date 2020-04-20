@@ -1,11 +1,11 @@
 @import 'default.css';
 
 :root {
-    --btcpay-brand-light: #ffd198;
-    --btcpay-brand-medium: #FF9800;
-    --btcpay-brand-dark: #313131;
-    --btcpay-brand-darker: #353535;
-    --btcpay-brand-darkest: #02000C;
+    --btcpay-brand-light: #ffd18c;
+    --btcpay-brand-medium: #FF9900;
+    --btcpay-brand-dark: #404040;
+    --btcpay-brand-darker: #3e3e3e;
+    --btcpay-brand-darkest: #101010;
     
     --btcpay-color-neutral-100: #fff9f1;
     --btcpay-color-neutral-200: #fcedd7;
