@@ -1,11 +1,20 @@
 @import 'default.css';
 
-/* Dark theme overrides */
 :root {
     --btcpay-brand-light: #ffd198;
     --btcpay-brand-medium: #FF9800;
     --btcpay-brand-dark: #313131;
     --btcpay-brand-darker: #353535;
     --btcpay-brand-darkest: #02000C;
+    
+    --btcpay-color-neutral-100: #fff9f1;
+    --btcpay-color-neutral-200: #fcedd7;
+    --btcpay-color-neutral-300: #f3e1c6;
+    --btcpay-color-neutral-400: #d7cda7;
+    --btcpay-color-neutral-500: #a09272;
+    --btcpay-color-neutral-600: #ada380;
+    --btcpay-color-neutral-700: #8b6f30;
+    --btcpay-color-neutral-800: #342b13;
+    --btcpay-color-neutral-900: #20180d;
 }
 
