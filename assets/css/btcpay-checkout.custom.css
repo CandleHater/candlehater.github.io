@@ -1,0 +1,7 @@
+body {
+  background: #3a3a3a;
+}
+
+.modal-content {
+    box-shadow: 0 2px 32px 0 black;
+}
