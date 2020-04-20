@@ -16,17 +16,31 @@ body {
 }
 
 .payment-tabs__tab {
-  color: black;
+  color: black !important;
 }
 .payment-tabs__slider {
   background: #FF9800;
 }
 
 .btnGroupLnd button {
-  border-color: #c76d00;
+  border-color: #c76d00 !important;
+}
+.btnGroupLnd button:hover {
+  background-color: #efefef;
 }
 .btnGroupLnd button.active {
   background: #f7931a;
+}
+.btnGroupLnd button.active:hover {
+  background-color: #c76d00;
+}
+
+.text-muted, .text-muted a {
+    color: #9c9c9c !important;
+}  
+  
+.separatorGem {
+  background: black;
 }
 
 .modal-content {
