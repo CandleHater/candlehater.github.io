@@ -52,16 +52,16 @@ a:hover {
 .btnGroupLnd button {
   border-color: #c76d00 !important;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(247, 147, 26, 0.70);
+  background-color: rgba(247, 147, 26, 0.75);
 }
 .btnGroupLnd button:hover {
-  background-color: rgba(247, 147, 26, 1);
+  background-color: rgba(247, 147, 26, 0.85);
 }
 .btnGroupLnd button.active {
-  background-color: rgba(247, 147, 26, 0.85);
+  background-color: rgba(247, 147, 26, 1);
 }
 .btnGroupLnd button.active:hover {
-  background-color: rgba(247, 147, 26, 0.85);
+  background-color: rgba(247, 147, 26, 1);
 }
 
 .text-muted, .text-muted a {
