@@ -113,26 +113,28 @@ a:active {
 
 .modal-content {
     box-shadow: 0 2px 32px 0 black;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 .modal-content:after {
     content: '';
     position: absolute;
-    top: -3px;
-    left: -3px;
-    height: calc(100% + 6px);
-    width: calc(100% + 6px);
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
     background: linear-gradient(
-        60deg,
-        #FF9800,
-        #FFEB3B,
+        45deg,
+        #ff9800,
+        #ffe426,
         #ffd662,
-        #FF5722,
-        #FF9800,
+        #d9dc39,
+        #ffa41f,
         #ffcd5b,
         #ffc65f,
+        #ffcd5b,
         #ffffff
         );
+    filter: blur(15px);
     border-radius: 6px;
     z-index: -1;
     background-size: 300% 300%;
@@ -142,8 +144,14 @@ a:active {
     0% {
         background-position: 0% 50%;
     }
+    25% {
+        background-position: 20% 50%;
+    }
     50% {
         background-position: 100% 50%;
+    }
+    75% {
+        background-position: 20% 50%;
     }
     100% {
         background-position: 0% 50%;
@@ -155,7 +163,8 @@ a:active {
 }
 
 .expired__body {
-    margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 0;
 }
