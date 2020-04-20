@@ -1,3 +1,4 @@
+/* use casa theme */
 @import 'default.css';
 
 :root {
@@ -21,12 +22,12 @@
     --btcpay-color-neutral-900: #20180d;
 }
 
-/* emboss shadow on headlines */
+/* headlines */
 h1, h2, h3, h4, h5 {
     text-shadow: 1px 1px var(--btcpay-brand-darkest);
 }
 
-/* box shadow on hover */
+/* card - box */
 .card-deck .card:hover:before {
     content: "";
     z-index: -10;
@@ -36,7 +37,15 @@ h1, h2, h3, h4, h5 {
     box-shadow: 0 0 200px #484848;
 }
 
-/* img same height */
+/* card - img */
+img.card-img-top {
+    transition: 1s ease-in-out;
+}
+img.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+/* card - img same height */
 @media (min-width: 768px) {
     img.card-img-top {
         object-fit: cover;
