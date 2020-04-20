@@ -9,6 +9,9 @@ a:hover,
 a:active {
     color: #2f2f2f;
 }
+label {
+    opacity: 1 !important;
+}
 
 .header::after {
     margin: 5px;
@@ -23,7 +26,7 @@ a:active {
 }
 .top-header {
     color: #fff;
-    background-color: #444444;
+    background-color: #444;
 }
 .top-header .timer-row {
     background: #636363;
@@ -42,14 +45,14 @@ a:active {
 }
 
 .payment-tabs__tab {
-    color: #8a4b00 !important;
+    color: #444 !important;
 }
 .payment-tabs__slider {
-    background-color: #8a4b00;
+    background-color: #444;
 }
 
 .payment-box {
-    background: url("https://media3.giphy.com/media/Pw7f9kOfx8iOI/giphy.gif?cid=ecf05e4…&rid=giphy.gif");
+    background: url(https://media3.giphy.com/media/Pw7f9kOfx8iOI/giphy.gif?cid=ecf05e4…&rid=giphy.gif);
     background-position: center;
     background-size: cover;
 }
@@ -57,10 +60,10 @@ a:active {
     filter: invert(1);
 }
 .payment__scan svg {
-    box-shadow: 0 0 0 5px white;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, .85);
 }
 .payment__scan svg path {
-    fill: white;
+    fill: rgba(255, 255, 255, .85);
 }
 
 .btnGroupLnd {
@@ -112,12 +115,12 @@ a:active {
 }
 
 .order-details > * {
-    color: #8a4b00;
+    color: #444;
     background: rgba(255, 255, 255, .35);
-    border-color: #8a4b00;
+    border-color: #444;
 }
 .order-details .line-items {
-    color: #8a4b00;
+    color: #444;
 }
 
 .fa-angle-double-down,
@@ -142,16 +145,17 @@ a:active {
     height: calc(100% + 4px);
     width: calc(100% + 4px);
     background: linear-gradient(
-        45deg,
-        #ff9800,
-        #ffe426,
+        50deg,
+        #fff2df,
+        #ffdf00,
+        #2b2b2b,
+        #ff9700,
+        #ff9700,
         #ffd662,
-        #d9dc39,
-        #ffa41f,
+        #ffffff,
+        #ffe426,
         #ffcd5b,
-        #ffc65f,
-        #ffcd5b,
-        #ffffff
+        #2b2b2b
         );
     filter: blur(15px);
     border-radius: 6px;
@@ -164,13 +168,13 @@ a:active {
         background-position: 0% 50%;
     }
     25% {
-        background-position: 20% 50%;
+        background-position: 15% 50%;
     }
     50% {
         background-position: 100% 50%;
     }
     75% {
-        background-position: 20% 50%;
+        background-position: 30% 50%;
     }
     100% {
         background-position: 0% 50%;
@@ -186,4 +190,32 @@ a:active {
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 15px;
+}
+
+.paid .payment-box {
+    background: url(https://media0.giphy.com/media/mxB3Vu9ckNZiU/giphy.gif?cid=ecf05e4…&rid=giphy.gif);
+    min-height: 270px;
+}
+.paid .action-button,
+.paid .action-button:hover,
+.paid .action-button:active {
+    background: none;
+    border-color: white;
+}
+.paid .status-icon,
+.paid .timer-row {
+    display: none;
+}
+.paid .success-block {
+    top: 30px;
+}
+.paid .payment-tabs {
+    margin-bottom: 5px;
+    display: none;
+}
+.paid .success-message {
+    color: white;
+    background: hsla(0, 0, 0, .4);
+    padding: 1em;
+    margin: 1em;
 }
