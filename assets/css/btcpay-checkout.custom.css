@@ -72,6 +72,11 @@ a:hover {
   background: #7b7b7b;
   color: white;
 }
+.manual__step-two__instructions {
+  padding: 15px 10px 15px;
+  background: white;
+  margin-bottom: 15px;
+}
   
 .separatorGem {
   background: black;
