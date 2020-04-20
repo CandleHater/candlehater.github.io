@@ -22,15 +22,18 @@ a:hover {
 }
 
 .action-button {
-  background: #f7931a;
+  background-color: #f7931a;
   border-color: #c76d00;
+}
+.action-button:hover {
+  background-color: #ffa31b
 }
 
 .payment-tabs__tab {
   color: black !important;
 }
 .payment-tabs__slider {
-  background: #FF9800;
+  background-color: #FF9800;
 }
 
 .btnGroupLnd button {
@@ -40,7 +43,7 @@ a:hover {
   background-color: #efefef;
 }
 .btnGroupLnd button.active {
-  background: #f7931a;
+  background-color: #f7931a;
 }
 .btnGroupLnd button.active:hover {
   background-color: #c76d00;
