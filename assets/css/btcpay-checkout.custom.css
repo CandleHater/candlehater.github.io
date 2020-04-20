@@ -42,10 +42,10 @@ a:active {
 }
 
 .payment-tabs__tab {
-    color: #e67e00 !important;
+    color: #8a4b00 !important;
 }
 .payment-tabs__slider {
-    background-color: #FF9800;
+    background-color: #8a4b00;
 }
 
 .payment-box {
@@ -57,10 +57,10 @@ a:active {
     filter: invert(1);
 }
 .payment__scan svg {
-    border: 5px solid rgba(255, 255, 255, .85);
+    box-shadow: 0 0 0 5px white;
 }
 .payment__scan svg path {
-    fill: rgba(255, 255, 255, .85);
+    fill: white;
 }
 
 .btnGroupLnd {
@@ -101,18 +101,29 @@ a:active {
     color: #101010;
 }
 
+.qr_currency_icon {
+    width: 50px;
+    height: 50px;
+}
+
 .copyBox {
     background: rgba(255, 255, 255, .8);
     color: #101010;
 }
 
 .order-details > * {
-    color: #2f2f2f;
+    color: #8a4b00;
     background: rgba(255, 255, 255, .35);
-    border-color: #FF9800;
+    border-color: #8a4b00;
 }
 .order-details .line-items {
-    color: #2f2f2f;
+    color: #8a4b00;
+}
+
+.fa-angle-double-down,
+.fa-angle-double-up {
+    padding-bottom: 3px;
+    opacity: .5;
 }
 
 .separatorGem {
