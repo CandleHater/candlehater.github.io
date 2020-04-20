@@ -2,12 +2,23 @@ body {
   background: #3a3a3a;
 }
 
+a {
+  color: #464646;
+}
+a:hover {
+  color: black;
+}
+
 .top-header {
     color: #fff;
     background-color: #444444;
 }
 .top-header .timer-row {
     background: #636363;
+}
+
+.top-header .timer-row__spinner svg {
+  fill: #ffcd82;
 }
 
 .action-button {
@@ -36,8 +47,13 @@ body {
 }
 
 .text-muted, .text-muted a {
-    color: #9c9c9c !important;
-}  
+  color: #9c9c9c !important;
+}
+
+.prettydropdown > ul {
+  background: #7b7b7b;
+  color: white;
+}
   
 .separatorGem {
   background: black;
