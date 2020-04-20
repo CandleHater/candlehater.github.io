@@ -2,6 +2,33 @@ body {
   background: #3a3a3a;
 }
 
+.top-header {
+    color: #fff;
+    background-color: #444444;
+}
+.top-header .timer-row {
+    background: #636363;
+}
+
+.action-button {
+  background: #f7931a;
+  border-color: #c76d00;
+}
+
+.payment-tabs__tab {
+  color: black;
+}
+.payment-tabs__slider {
+  background: #FF9800;
+}
+
+.btnGroupLnd button {
+  border-color: #c76d00;
+}
+.btnGroupLnd button.active {
+  background: #f7931a;
+}
+
 .modal-content {
     box-shadow: 0 2px 32px 0 black;
 }
