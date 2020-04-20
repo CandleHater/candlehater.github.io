@@ -77,7 +77,11 @@ a:hover {
   background: white;
   margin-bottom: 15px;
 }
-  
+
+.order-details > * {
+  background: #ececec;
+}
+
 .separatorGem {
   background: black;
 }
