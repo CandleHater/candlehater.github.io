@@ -161,7 +161,7 @@ label {
     border-radius: 6px;
     z-index: -1;
     background-size: 300% 300%;
-    animation: animatedgradient 3s ease alternate infinite;
+    animation: animatedgradient 8s ease alternate infinite;
 }
 @keyframes animatedgradient {
     0% {
