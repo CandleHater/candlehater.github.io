@@ -141,6 +141,22 @@ label {
     background: black;
 }
 
+@media screen and (max-width: 575px) {
+    .modal-dialog {
+        margin: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .modal-dialog {
+        margin: 15px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .modal-dialog {
+        margin: 0;
+    }
+}
+
 .modal-content {
     box-shadow: 0 2px 32px 0 black;
     border: 2px solid white;
