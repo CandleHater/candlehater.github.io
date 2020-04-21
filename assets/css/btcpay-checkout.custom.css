@@ -1,5 +1,7 @@
 body {
-    background: #2b2b2b;
+    background-blend-mode: soft-light;
+    background: url(https://images.squarespace-cdn.com/content/v1/5e2372d…/1586…DCnrfcvjeULha8ZP7TJu8YtxmynECBzAw8WXFtFNy57MZmLjFAGPEORr6dIrTpeQ/200-2.gif);
+    background-color: #2b2b2b;
 }
 
 a {
@@ -13,6 +15,9 @@ label {
     opacity: 1 !important;
 }
 
+.header {
+    background: none;
+}
 .header::after {
     margin: 5px;
     content: "Thank you! -🕯️";
@@ -23,13 +28,14 @@ label {
 }
 .header__icon {
     margin: 0 !important;
+    padding-top: 5px;
 }
 .top-header {
     color: #fff;
-    background-color: #444;
+    background-color: rgba(0, 0, 0, .5);
 }
 .top-header .timer-row {
-    background: #636363;
+    background: none;
 }
 
 .top-header .timer-row__spinner svg {
@@ -40,7 +46,8 @@ label {
     background-color: rgba(247, 147, 26, .85);
     border-color: #c76d00;
 }
-.action-button:hover, .action-button:active {
+.action-button:hover,
+.action-button:active {
     background-color: rgba(247, 147, 26, .95);
 }
 
@@ -86,7 +93,8 @@ label {
     background-color: rgba(247, 147, 26, .95);
 }
 
-.text-muted, .text-muted a {
+.text-muted,
+.text-muted a {
     color: #9c9c9c !important;
 }
 
