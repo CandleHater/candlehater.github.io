@@ -171,7 +171,7 @@ label {
         50deg,
         red,
         #ffe500,
-        transparent,
+        white,
         #ffcf95,
         #ff9700,
         transparent,
@@ -191,7 +191,7 @@ label {
         background-position: 0% 50%;
     }
     35% {
-        background-position: 10% 50%;
+        background-position: 15% 50%;
     }
     50% {
         background-position: 90% 50%;
