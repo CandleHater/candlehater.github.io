@@ -63,9 +63,6 @@ label {
     background-position: center;
     background-size: cover;
 }
-.expired .payment-box {
-    filter: invert(1);
-}
 .payment__scan svg {
     box-shadow: 0 0 0 5px rgba(255, 255, 255, .85);
 }
@@ -209,13 +206,6 @@ label {
     margin-top: 15px;
 }
 
-.expired__body {
-    background: rgba(255, 255, 255, .8);
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 15px;
-}
-
 .paid .payment-box {
     background: url(https://media0.giphy.com/media/mxB3Vu9ckNZiU/giphy.gif?cid=ecf05e4…&rid=giphy.gif);
     min-height: 270px;
@@ -242,4 +232,25 @@ label {
     background: hsla(0, 0, 0, .4);
     padding: 1em;
     margin: 1em;
+}
+
+.expired .payment-box {
+    filter: invert(1);
+}
+
+.expired .modal-content:after {
+    background: linear-gradient(
+        50deg,
+        red,
+        red,
+        #ff9700,
+        red,
+        red
+        );
+}
+.expired__body {
+    background: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
 }
